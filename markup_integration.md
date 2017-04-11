@@ -6,6 +6,10 @@
 - перенесемо в файли header.php і footer.php контен для хедера і фуера
 - видалимо теги, що відповідають за кодування і метатеги, а замість них вставимо  <?$APPLICATION->ShowHead();?>
 - шлях до .css, .js файлів зберігається в змінній, тому рядки типу:
-  `<link rel="icon" href="ico/favicon_bx.png">`
+  ```
+  <link rel="icon" href="ico/favicon_bx.png">
+  ```
   стануть такими
-  `<link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/ico/favicon_bx.png">` 
+  ```
+  <link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/ico/favicon_bx.png">
+  ``` 
