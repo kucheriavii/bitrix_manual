@@ -7,3 +7,4 @@
 ## 3. Області для редагування
 (https://github.com/kucheriavii/bitrix_manual/blob/master/writeable_blocks.md)
 ## 4. Робота з компонентами
+- Створюємо меню

@@ -55,3 +55,14 @@ $bIsMainPage = $APPLICATION->GetCurPage(false) == SITE_DIR;
   <p>"404" - тут нікуя немає</p>
 <?endif;?> \\ кінець умови
 ```
+- мультивіза ксіва. Мультиязычность.
+    створюємо папки в шаблоні з назвою lang/en і lang/ru, в них створюємо файли: header.php & footer.php з слідуючим контентом:
+    ```
+    <?
+    	$MESS["WORKING_TIME"]="We are opened: ";
+    ?>
+    ```
+    а в файлі де маємо використовувати багатомовний інтерфейс вставляємо слідуюче:
+    ```
+    <?=GetMessage('WORKING_TIME');?>
+    ```
